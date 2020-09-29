@@ -15,6 +15,7 @@
 		8446B88823EB299900274A96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8446B88623EB299900274A96 /* LaunchScreen.storyboard */; };
 		8446B89323EB299900274A96 /* Find_the_users_locationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8446B89223EB299900274A96 /* Find_the_users_locationTests.swift */; };
 		8446B89E23EB299900274A96 /* Find_the_users_locationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8446B89D23EB299900274A96 /* Find_the_users_locationUITests.swift */; };
+		8446B8AD23EB29B000274A96 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8446B8AC23EB29B000274A96 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8446B89923EB299900274A96 /* Find the users locationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Find the users locationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8446B89D23EB299900274A96 /* Find_the_users_locationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_the_users_locationUITests.swift; sourceTree = "<group>"; };
 		8446B89F23EB299900274A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8446B8AC23EB29B000274A96 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8446B8AD23EB29B000274A96 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +86,7 @@
 				8446B89123EB299900274A96 /* Find the users locationTests */,
 				8446B89C23EB299900274A96 /* Find the users locationUITests */,
 				8446B87923EB299700274A96 /* Products */,
+				8446B8AB23EB29B000274A96 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +130,14 @@
 				8446B89F23EB299900274A96 /* Info.plist */,
 			);
 			path = "Find the users locationUITests";
+			sourceTree = "<group>";
+		};
+		8446B8AB23EB29B000274A96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8446B8AC23EB29B000274A96 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
